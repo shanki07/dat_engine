@@ -30,3 +30,4 @@ if __name__ == "__main__":
     listener = MyStreamListener()
     stream = tweepy.Stream(auth=auth, listener=listener)
     stream.filter(track=['python'], is_async=False)
+    print("Success")
